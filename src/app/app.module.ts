@@ -7,4 +7,4 @@ import { NgModule } from "@angular/core";
     FormsModule
   ]
 })
-export class AppModule { }
+export class AppModule { } 
