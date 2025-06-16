@@ -2,11 +2,13 @@ import { Component } from '@angular/core';
 import { UserService } from '../services/user.service';
 import { User } from '../models/user/User';
 import { Router } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-new-user',
   templateUrl: './new-user.component.html',
-  styleUrls: ['./new-user.component.css']
+  styleUrls: ['./new-user.component.css'],
+  imports: [FormsModule]
 })
 export class NewUserComponent {
 
